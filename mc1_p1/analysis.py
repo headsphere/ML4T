@@ -59,11 +59,13 @@ def test_code():
     # Define input parameters
     # Note that ALL of these values will be set to different values by
     # the autograder!
-    start_date = dt.datetime(2010, 1, 1)
+    start_date = dt.datetime(2010, 06, 1)
     end_date = dt.datetime(2010, 12, 31)
+    # symbols = ['AXP', 'HPQ', 'IBM', 'HNZ']
     symbols = ['GOOG', 'AAPL', 'GLD', 'XOM']
     allocations = [0.2, 0.3, 0.4, 0.1]
-    start_val = 1000000  
+    # allocations = [0.2, 0.3, 0.4, 0.1]
+    start_val = 1000000
     risk_free_rate = 0.0
     sample_freq = 252
 
